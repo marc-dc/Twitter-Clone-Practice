@@ -8,9 +8,13 @@
   <link rel="stylesheet" href="sidebar.css">
   <link rel="stylesheet" href="header.css">
   <link rel="stylesheet" href="general.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="content.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
+
+<div class="layout-container">
+  
 
 <div class="sidebar-container">
   <div class="sidebar">
@@ -24,7 +28,7 @@
       </div>
       <div class="sidebar-icon">
         <div class="sidebar-icon-inner">
-          <i class="fa fa-compass"></i> Explore
+          <i class="fa fa-search"></i> Explore
         </div>
       </div>
       <div class="sidebar-icon">
@@ -103,18 +107,52 @@
   </div>
 </div>
 
-<header class="fyp-header">
-  <div class="tab-active">
-    For you
-    <div class="tab-active-line"></div>
-  </div>
 
-  <div class="tab">
-    Following
-  </div>
+<div class="middle-section">
+  <header class="fyp-header">
+    <div class="tab-active">
+      For you
+      <div class="tab-active-line"></div>
+    </div>
+  
+    <div class="tab">
+      Following
+    </div>
 </header>
 
+<div class="twitter-post-container">
+  <div class="twitter-profile-container">
+    <div class="profile-picture">M</div>
+  </div>
 
-  
+  <div class="twitter-input-area">
+    <div class="twitter-input-text">
+      <input type="text" placeholder="What's happening?">
+    </div>
+
+    <div class="reply-permission-wrapper">
+    <div class="reply-permission">
+      <i class="fa fa-globe"></i>
+      <span>Everyone can reply</span>
+    </div>
+  </div>
+
+    <div class="icons-post-spacing">
+      <div class="post-actions">
+        <i class="fa-regular fa-image"></i>
+        <i class="fa-solid fa-photo-film"></i>
+        <i class="fa-solid fa-chart-simple"></i>
+        <i class="fa-regular fa-face-smile"></i>
+        <i class="fa-regular fa-calendar"></i>
+        <i class="fa-solid fa-location-dot"></i>
+      </div>
+
+      <button class="twitter-post-button">Post</button>
+    </div>
+
+  </div>
+</div>
+
+
 </body>
 </html>

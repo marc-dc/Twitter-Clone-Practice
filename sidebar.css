@@ -6,7 +6,7 @@
   left: 0;
   top: 0;
   bottom: 0;
-  width: 600px;
+  width: 595px;
   background-color: black;
   border-style: solid;
   border-width: 1px;
@@ -17,7 +17,7 @@
 .sidebar{
   display: flex;
   flex-direction: column;
-  width: 280px;
+  width: 248px;
   padding-top: 18px;
   padding-left: 20px;
   line-height: 30px;
@@ -60,11 +60,11 @@
   width: 18px;
   position: absolute;
   top: 189px;
-  left: 333px;
+  left: 357px;
   font-size: 12px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
-  z-index: 10px;
+  z-index: 10;
   background-color: rgb(0, 149, 246);
 }
 
@@ -86,7 +86,7 @@
   width: 10px;
   border-radius: 9px;
   position: absolute;
-  left: 337px;
+  left: 362px;
   top: 78px;
   z-index: 2px;
 }
@@ -111,7 +111,7 @@
   font-weight: bold;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 20px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   margin-left: -10px;
   cursor: pointer;
 }
@@ -119,7 +119,10 @@
 .profile-sidebar-container{
   display: flex;
   align-items: center;
-  height: 100px;
+  height: 80px;
+  border-radius: 100px;
+  cursor: pointer;
+
 }
 
 .profile-picture{
@@ -138,6 +141,7 @@
   font-size: 16px;
   margin-right: 12px;
   margin-bottom: 4px;
+  cursor: pointer;
 
 }
 
@@ -147,7 +151,7 @@
   position: relative;
   flex-direction: column;
   font-family: Arial;
-  line-height: 24px;
+  line-height: 22px;
   cursor: pointer;
 }
 
@@ -166,7 +170,7 @@
   position: absolute;
   color: white;
   font-weight: bold;
-  font-size: 20px;
-  right: 42px;
-  top: 9px;
+  font-size: 17px;
+  right: 20px;
+  top: 5px;
 }
