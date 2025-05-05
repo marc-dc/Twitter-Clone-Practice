@@ -67,7 +67,7 @@
   margin-top: 5px;
   margin-bottom: 5px;
   padding: 4px 8px;
-
+  transition: background-color 0.15s;
 }
 
 .reply-permission:hover{
@@ -113,4 +113,21 @@
   cursor: pointer;
 }
 
+.show-post{
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(255, 255, 255, 1);
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  border-color: gray;
+  background-color: black;
+  color: #1DA1F2;
+  padding: 12px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.show-post:hover{
+  background-color: rgba(201, 201, 201, 0.15);
+}
 

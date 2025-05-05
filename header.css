@@ -4,14 +4,17 @@
   align-items: center;
   background-color: black;
   height: 57px;
-  width: 590px;
+  width: 588px;
   position: fixed;
   top: 0;
-  left: 595px;
-  z-index: 15;
+  left: 596px;
+  z-index: 30;
   border-style: solid;
   border-width: 1px;
   border-bottom-color: gray;
+  border-right-color: gray;
+  border-left-color: gray;
+
 }
 
 .tab-active,
